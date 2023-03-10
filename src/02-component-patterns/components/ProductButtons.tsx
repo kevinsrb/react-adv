@@ -13,8 +13,9 @@ export const ProductButtons = ({ className, style }: Props) => {
     const { increaseBy, counter } = useContext( ProductContext );
 
     return (
-        <div className={  `${styles.buttonsContainer} ${className}` }
-        style={style}
+        <div 
+            className={ `${ styles.buttonsContainer} ${ className }` }
+            style={ style }
         >
             <button
                 className={ styles.buttonMinus }

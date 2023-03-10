@@ -8,14 +8,14 @@ import { Props as ProductButtonsProps } from '../components/ProductButtons';
 
 export interface Product {
     id: string;
-    title: string;
     img?: string;
+    title: string;
 }
 
 export interface ProductContextProps {
     counter: number;
-    increaseBy: ( value: number ) => void;
     product: Product;
+    increaseBy: ( value: number ) => void;
 }
 
 
