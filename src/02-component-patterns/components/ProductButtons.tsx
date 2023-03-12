@@ -11,6 +11,7 @@ export interface Props {
 export const ProductButtons = ({ className, style }: Props) => {
 
     const { increaseBy, counter } = useContext( ProductContext );
+ 
 
     return (
         <div 
